@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.color-palette {
+  display: grid;
+  grid-template-columns: 1;
+  grid-template-rows: repeat(5, 20vh);
+}
+.color {
+  border: 0.5px solid rgba(0, 0, 0, 0.354);
+}
+.code {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #5b4d4d80;
+}
+
+i:hover {
+  /* color: rgba(14, 107, 189, 0.708); */
+  /* text-align: scenter; */
+  /* left: 1rem; */
+  cursor: pointer;
+  font-size: 1.1rem;
+  box-shadow: 0.2rem 0.2rem 1rem rgba(0, 0, 0, 0.402);
+}
